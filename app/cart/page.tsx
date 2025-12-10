@@ -10,7 +10,7 @@ import { Minus, Plus, Trash2, ShoppingBag } from "lucide-react"
 
 export default function CartPage() {
   const { items, updateQuantity, removeFromCart, totalPrice, clearCart } = useCart()
-
+  console.log("aaaaaaa")
   if (items.length === 0) {
     return (
       <div className="min-h-screen flex flex-col">
