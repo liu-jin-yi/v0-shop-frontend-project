@@ -28,7 +28,7 @@ export default function HomePage() {
           </div>
           <div className="container mx-auto px-4 z-10 text-center">
             <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tight text-balance max-w-4xl mx-auto leading-tight">
-              品味生活的艺术--添加测试--修复#4---修复#5
+              品味生活的艺术--添加测试--修复#4---修复#5--修复#12
             </h1>
             <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
               探索精心挑选的奢华商品系列，每一件都代表着卓越品质与非凡设计的完美融合。
