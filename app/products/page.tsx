@@ -30,6 +30,9 @@ export default async function ProductsPage({
           : "全部商品"
     : "全部商品"
 
+    type kk = string;
+    console.log('1231asdada')
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -38,7 +41,7 @@ export default async function ProductsPage({
         <div className="container mx-auto px-4">
           <div className="mb-12">
             <h1 className="font-serif text-4xl font-semibold">{categoryTitle}</h1>
-            <p className="mt-2 text-muted-foreground">共 {filteredProducts.length} 件商品</p>
+            <p className="mt-2 text-muted-foreground">共 {filteredProducts.length} 件商品--修改</p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

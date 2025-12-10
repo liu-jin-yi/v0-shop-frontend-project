@@ -53,7 +53,7 @@ export default async function ProductPage({
               </div>
 
               <div className="mt-8">
-                <h3 className="font-medium mb-4">商品详情</h3>
+                <h3 className="font-medium mb-4">商品详情--修改</h3>
                 <ul className="space-y-2">
                   {product.details.map((detail, i) => (
                     <li key={i} className="flex items-center gap-2 text-sm text-muted-foreground">

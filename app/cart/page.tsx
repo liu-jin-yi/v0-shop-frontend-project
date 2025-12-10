@@ -19,7 +19,7 @@ export default function CartPage() {
           <div className="text-center">
             <ShoppingBag className="mx-auto h-16 w-16 text-muted-foreground/50" />
             <h1 className="mt-6 font-serif text-2xl font-semibold">购物车是空的</h1>
-            <p className="mt-2 text-muted-foreground">快去选购心仪的商品吧！</p>
+            <p className="mt-2 text-muted-foreground">快去选购心仪的商品吧！--修改</p>
             <Button asChild className="mt-6">
               <Link href="/products">开始购物</Link>
             </Button>
