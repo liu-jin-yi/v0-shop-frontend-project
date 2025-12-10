@@ -9,7 +9,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function HomePage() {
   const featuredProducts = products.slice(0, 4)
-
+  console.log(11111,22222,333)
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
